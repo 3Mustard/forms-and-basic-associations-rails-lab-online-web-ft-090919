@@ -10,7 +10,7 @@
 
 
   <%= f.label "Select Genre" %>
-  <%= f.collection_select :genre_id, Genre.all, "id", "name") %>
+  <%= f.collection_select :genre_id, Genre.all, :id, :name %>
 
   <br />
 
